@@ -1,0 +1,18 @@
+{
+  "name": "motumbo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-session": "^2.0.0-alpha.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.0",
+    "pug": "^2.0.0-beta3"
+  }
+}

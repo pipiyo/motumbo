@@ -1,0 +1,28 @@
+extends ../layouts/home_layout.pug
+block content
+  .container
+    div
+      form(action="/home/singup", method="POST")
+        div
+          label(for="user") Nombre usuario
+          input(type="text", name="user")
+        div
+          label(for="email") Email 
+          input(type="text", name="email")
+        div
+          label(for="nombre") Nombre 
+          input(type="text", name="nombre")
+        div
+          label(for="apellido") Apellido
+          input(type="text", name="apellido")
+        div
+          label(for="rut") Rut
+          input(type="text", name="rut")
+        div
+          label(for="password") Clave
+          input(type="text", name="password")
+        div
+          label(for="confirm-password") Repita Clave
+          input(type="text", name="confirm_password")
+        div
+          input(type="submit", value="Enviar")
